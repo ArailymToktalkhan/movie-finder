@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Movie Finder</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>🎬 Movie Finder</h1>
+
+    <div class="search">
+      <input type="text" id="titleInput" placeholder="Enter movie title" />
+      <button id="searchBtn">Search Movie</button>
+    </div>
+
+    <p id="message" class="message"></p>
+
+    <section id="result" hidden>
+      <div class="block">
+        <span class="label">Title and Year</span>
+        <h2 id="titleYear"></h2>
+      </div>
+      <div class="block">
+        <span class="label">Rating</span>
+        <p id="rating"></p>
+      </div>
+      <div class="block">
+        <span class="label">Plot Description</span>
+        <p id="plot"></p>
+      </div>
+      <button id="watchlistBtn">Add to Watchlist</button>
+    </section>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

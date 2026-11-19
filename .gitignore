@@ -1,0 +1,5 @@
+# Secrets (Zero Commits Rule)
+.env
+
+node_modules
+dist
